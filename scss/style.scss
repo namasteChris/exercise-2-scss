@@ -1,0 +1,11 @@
+// this file imports all our csss prtials to be compiled in one stylesheet, which you can attach to your html.
+
+// all the tiles that are prefixed with an underscore "_name-of-file.scss" are called partials — 
+// meaning that their css isn't compiled unless it's imported into an unprefized .scss file.
+
+// import variables, mixins, and other modules (usually compass related)
+@import "base"; 
+@import "mixins"; 
+
+// import component rules
+@import "components/main";
